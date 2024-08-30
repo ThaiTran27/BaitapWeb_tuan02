@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  #container {
+    margin-top: 30px;
+    width: 1000px;
+    height: 724.5px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 3px rgb(128, 128, 128), -4px -4px 3px rgb(128, 128, 128);
+  }
+  #header {
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0.5em 0.5em 0.3em #b64345;
+    color: #b64345;
+    height: 55px;
+  }
+  #menu ul li {
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    border-right: 1px solid blue;
+  }
+  #menu {
+    width: 100%;
+    border: 1px solid red;
+    line-height: 30px;
+    background-color: #ec949c;
+  }
+  #menu ul li a {
+    text-decoration: none;
+    border-right: 1px blue;
+  }
+  h2 {
+    color: #9a1d1f;
+    background-color: #ec949c;
+    letter-spacing: 7px;
+  }
+  #p1 {
+    margin-top: 15px;
+    border: solid 0.2px;
+  }
+  
+  a {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #HoneySoy {
+    color: #d4783a;
+    font-weight: bold;
+  }
+  #img1 {
+    height: 20px;
+  }
+  input {
+    margin-left: 30;
+  }
+  #menu {
+    float: left;
+  }
+  #menu_left {
+    float: left;
+    width: 15%;
+    height: 580px;
+    background-color: white;
+  }
+  #menu_left ul li {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ec949c;
+    border: 1px solid 50px;
+    padding: 10px;
+  }
+  #menu_left ul {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  h2 {
+    margin-top: 5px;
+    width: 300px;
+  }
+  #img_left {
+    height: 90px;
+    width: 150px;
+    border-radius: 55%;
+    box-shadow: 10px 15px 5px #ec949c;
+  }
+  #main {
+    float: left;
+    width: 55%;
+    height: 480px;
+  }
+  #right1 {
+    float: left;
+    width: 30%;
+    height: 380px;
+    background-color: black;
+  }
+  #right2 h4 p {
+    width: 10px;
+  }
+  .right_text {
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+  }
+  .right_text h4 p {
+    float: left;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    line-height: 50px;
+  }
+  footer {
+    clear: both;
+    width: 100%;
+    height: 5%;
+    background-color: salmon;
+    color: aliceblue;
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    line-height: 50px;
+  }
+  footer address {
+    margin-left: 30%;
+  }
+  #right ul li {
+    display: inline-block;
+  }
+  .img_right {
+    height: 90px;
+    width: 150px;
+  }
+  #right2 {
+    margin-left: 20px;
+  }
+  

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#container{
+    border: 1px solid brown;
+    margin-top: 20px;
+    width: 900px;
+    height: 400px;
+}
+#header{
+    border: 1px solid brown;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+#header h1{
+    color: brown;
+    text-transform: uppercase;
+    text-shadow: 15px 15px 10px;
+    font-style: italic;
+}
+#menu{
+    border: 1px solid brown;
+    line-height: 40px;
+    width: 100%;
+    height: 44px;
+    background-color: rgb(249, 133, 174);
+}
+#menu ul li{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin-left: 10px;
+    border-right: 1px solid blue;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(45, 3, 3);
+    font-size: 20px;
+}
+#menu #sea{
+    position: relative;
+    top: -43px;
+    right: -600px;
+}
+#menu #Go{
+    position: relative;
+    top: -43px;
+    right: -600px;
+}
+#section h2{
+    background-color: rgb(247, 226, 200);
+    color: brown;
+    text-transform: uppercase;
+    height: 30px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+#section #honey{
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+#section .a1{
+    color: red;
+}
+#section .a2{
+    color: red;
+}

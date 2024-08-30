@@ -1,0 +1,97 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+.container{
+    height:180%;
+    background-image: url("../IMAGE/background.jpg");
+}
+.logo{
+    height: 15%;
+    width: 100%;
+
+}
+.logo img{
+    width: 80%;
+    height: 80%;
+
+}
+.list{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    height: 78%;
+    border-right: 3px solid green;
+
+}
+.menu{
+    box-sizing: border-box;
+    width: 90%;
+    height: 24%;
+    background-color: aliceblue;
+    border: 5px double rgb(193, 189, 189);
+}
+a{
+    font-size: 20px;
+    color:rgb(153, 67, 234);
+    text-decoration: none;
+    justify-self: center;
+}
+.body{
+    box-sizing: border-box;
+    float: left;
+    width: 80%;
+    height: 80%;
+}
+.heading{
+    width: 73%;
+    height: 4%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.body img{
+    float: right;
+    margin-top: 3%;
+}
+.body p{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 100%;
+    color:aliceblue
+
+}
+.heading2{
+    width: 35%;
+    height: 3%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.heading2 p {
+    font-size: 170%;
+     margin-left: 2%;
+     color:aliceblue; 
+     margin-top: 8%;
+}
+ul{
+    color:aliceblue
+}
+footer{
+    float: left;
+    width: 98%;
+    height: 5%;
+    border-top: 5px double green;
+    
+    color: aliceblue;
+    text-align: justify;
+
+}
+
+.menu li {
+    
+    
+    margin-bottom: 6%;
+}
